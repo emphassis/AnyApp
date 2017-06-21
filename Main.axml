@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Go to Activity 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity2Btn" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/NameET"
+        android:hint="Type Name Here" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/PhoneNumberET"
+        android:hint="Type Phone Number Here" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/stateET"
+        android:hint="Type State Here" />
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitBtn" />
+    <Button
+        android:text="Get Contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getBtn" />
+    <Button
+        android:text="Search Contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchContactsBtn" />
+    <Button
+        android:text="Save Database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveDBBtn" />
+    <Button
+        android:text="Transfer Contacts to SQL Server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SQLServerBtn" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactsTV" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar1"
+        android:visibility="gone" />
+</LinearLayout>
